@@ -9,3 +9,5 @@ In order to inform the user about the status of the lights (here LED), We have a
 ESP wroom 32 accesses the status tag in the database firebase webpage and updates it according to the light intensity, thereby giving a immediate feedback.
 Limitations: Anyone with the App can control the lights. can be overcomed by setting the required access permissions in the firebase database.
 Suggested extensions: External interrupt pin can be used to interface the sensor, inorder to save processor from continuously look for change in the status. (This will need use of a comparator as signal conditioning and converting the sensor data into digital signal).
+Refer my blog for details
+https://techprojectspro.blogspot.com/
